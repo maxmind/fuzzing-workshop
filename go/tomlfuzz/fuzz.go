@@ -1,5 +1,12 @@
 package tomlfuzz
 
+// REFERENCES:
+// Automated Fuzzer: https://github.com/dvyukov/go-fuzz
+// Fuzz Target: github.com/BurntSushi/toml
+// You may find Damian Gryski’s tutorial helpful if you get stuck: 
+// https://medium.com/@dgryski/go-fuzz-github-com-arolek-ase-3c74d5a3150c
+//  ----------------------------------------------------------------------
+
 // In this exercise, we are going to fuzz github.com/BurntSushi/toml, looking
 // for input that will crash it. You should first set up your environment:
 //
@@ -10,7 +17,7 @@ package tomlfuzz
 //    `go get github.com/dvyukov/go-fuzz/go-fuzz && go get github.com/dvyukov/go-fuzz/go-fuzz-build`
 // 4. Install the TOML library with `go get github.com/BurntSushi/toml`
 //
-// You are now read to fill in the missing pieces. Please complete all of the
+// You are now ready to fill in the missing pieces. Please complete all of the
 // TODO items below using the "Complex Usage" example code from
 // https://github.com/BurntSushi/toml#more-complex-usage
 
