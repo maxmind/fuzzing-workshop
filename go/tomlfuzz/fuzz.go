@@ -12,7 +12,7 @@ import "time"
 // for input that will crash it. You should first set up your environment:
 //
 // 1. Open your favorite terminal
-// 2. Run `export GO111MODULES=off` to disable Go modules if you have them
+// 2. Run `export GO111MODULE=off` to disable Go modules if you have them
 //    enabled.
 // 3. Install go-fuzz by running
 //    `go get github.com/dvyukov/go-fuzz/go-fuzz && go get github.com/dvyukov/go-fuzz/go-fuzz-build`
