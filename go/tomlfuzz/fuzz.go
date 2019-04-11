@@ -6,7 +6,8 @@ package tomlfuzz
 // You may find Damian Gryski’s tutorial helpful if you get stuck: 
 // https://medium.com/@dgryski/go-fuzz-github-com-arolek-ase-3c74d5a3150c
 //  ----------------------------------------------------------------------
-
+import "github.com/BurntSushi/toml"
+import "time"
 // In this exercise, we are going to fuzz github.com/BurntSushi/toml, looking
 // for input that will crash it. You should first set up your environment:
 //
