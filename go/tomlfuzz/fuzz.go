@@ -11,7 +11,7 @@ import "time"
 // In this exercise, we are going to fuzz github.com/BurntSushi/toml, looking
 // for input that will crash it. You should first set up your environment:
 //
-// 1. Open your favorite terminal
+// 1. Open your favorite terminal. From the /fuzzing-workshop/go/tomlfuzz dir:
 // 2. Run `export GO111MODULE=off` to disable Go modules if you have them
 //    enabled.
 // 3. Install go-fuzz by running
