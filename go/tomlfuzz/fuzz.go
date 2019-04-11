@@ -13,7 +13,7 @@ import "time"
 //
 // 1. Open your favorite terminal. From the /fuzzing-workshop/go/tomlfuzz dir:
 // 2. Run `export GO111MODULE=off` to disable Go modules if you have them
-//    enabled.
+//    enabled (if you haven't already done it).
 // 3. Install go-fuzz by running
 //    `go get github.com/dvyukov/go-fuzz/go-fuzz && go get github.com/dvyukov/go-fuzz/go-fuzz-build`
 // 4. Install the TOML library with `go get github.com/BurntSushi/toml`
