@@ -32,6 +32,8 @@ import "time"
 // input and 0 otherwise. For our purposes, you should return 0 if the parser
 // returned an error cleanly and 1 if there was no error, indicating that it
 // was parsed successfully.
+//
+// You can look at example code at https://github.com/dvyukov/go-fuzz#usage to get started.
 func Fuzz(data []byte) int {
 	// TODO: Add a tomlConfig variable to decode the data into.
 
