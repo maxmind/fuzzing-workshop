@@ -2,7 +2,7 @@ package tomlfuzz
 
 // REFERENCES:
 // Automated Fuzzer: https://github.com/dvyukov/go-fuzz
-// Fuzz Target: github.com/BurntSushi/toml
+// System Under Test: github.com/BurntSushi/toml
 // You may find Damian Gryski’s tutorial helpful if you get stuck: 
 // https://medium.com/@dgryski/go-fuzz-github-com-arolek-ase-3c74d5a3150c
 //  ----------------------------------------------------------------------
